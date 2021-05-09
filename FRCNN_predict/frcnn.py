@@ -12,8 +12,8 @@ import torch.nn as nn
 from PIL import Image, ImageDraw, ImageFont
 from torch.nn import functional as F
 
-from nets.frcnn import FasterRCNN
-from utils.utils import DecodeBox, get_new_img_size, loc2bbox, nms
+from FRCNN_predict.nets.frcnn import FasterRCNN
+from FRCNN_predict.utils.utils import DecodeBox, get_new_img_size, loc2bbox, nms
 
 
 #--------------------------------------------#
